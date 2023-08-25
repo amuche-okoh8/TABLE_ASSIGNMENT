@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+
+    <title>HTT Practice</title>
+</head>
+<body>
+    <main>
+        <img src="./work.webp" alt="A lady seriously working on her laptop" width="200px" height="200px"
+        />
+        <a href="./work.webp">click here to see image</a>
+        <section class="sec-0ne">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptas non sunt tenetur? Quis asperiores nostrum quae doloribus facilis iste officia non iure praesentium nam alias tempora perferendis beatae quasi debitis 
+                <br>
+                ullam impedit vitae, voluptas quidem porro illo repellendus maiores? Dolorum accusantium quo eos modi, eum consectetur praesentium repellat blanditiis laboriosam? Temporibus et quos unde in ad repudiandae error delectus! Fugiat, velit earum perspiciatis laborum, explicabo vero deleniti, et repellendus repellat sunt aspernatur saepe veritatis eaque. Commodi ipsa <br>
+                quasi quidem sit soluta nesciunt quia officia laborum, debitis aperiam nam et nostrum aliquid qui minima, enim error quod eligendi temporibus laudantium dolorum fuga ea sint voluptatem. Itaque delectus asperiores neque, doloremque officia odit assumenda vitae maxime placeat 
+                <br>
+                consequatur ad, cumque quidem. Ipsa quae quibusdam iure id nam sed amet quaerat cumque, at numquam aut voluptate expedita aspernatur voluptatem libero hic illo necessitatibus optio! Error nam itaque in, optio eaque doloribus officia voluptatum ea dolor illo voluptatem aliquid adipisci iste quos harum 
+                <br>
+                commodi fugiat omnis aspernatur rerum, blanditiis deleniti consequatur. Temporibus facere porro nihil odit debitis praesentium quasi sapiente illo excepturi, fugiat quaerat placeat neque vitae, quos libero commodi dolorem optio earum dignissimos maiores explicabo expedita possimus eum! Aspernatur facere quod iure.
+            </p>
+        </section>
+
+        <!-- This section is for form -->
+        <section class="two">
+            <h2>Welcome to the HerTechTrail Acadamy.</h2>
+            <p>
+                Kindly fill the registration form with details. 
+            </p>
+            <form>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input  type="text" placeholder="first name" id="firstName"/>
+                </div>
+
+                <br/>
+
+                <div>
+                    <!-- the "for" attribute is used to link the label element and the input element such that when the label element is clicked the input element  will be highlighted -->
+                    <label for="lastName">Last Name</label> 
+                    <input type="text" placeholder="Last Name" id="lastName">
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="emailAddress">Email Address</label>
+                    <input type="emailaddress" placeholder="email address" id="emailAddress" required />
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" placeholder="phone number" id="phoneNumber" required />
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="stage">Learning Stage</label>
+                    <input type="number" placeholder="Learning Stage" id="stage" required />
+                </div>
+
+                <br/>
+                <div>
+                    <label for="img">Image</label>
+                    <input type="file" placeholder="" id="img" required />
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" placeholder="#" id="DOB" required />
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="password">Pass Word</label>
+                    <input type="password" placeholder="password" id="password"  maxlength ="8"  required />
+                </div>
+
+                <br/>
+                
+                <div>
+                    <label >Gender</label>
+                    <br/>
+                    <!-- The radio input is used if you want your uder to select an option -->
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+        
+                    <!-- The name attribute enbles one to make a single choice out of many option and it is very important in the radio element  -->
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="#">In nothing less than 200 words, let us know why you should be granted this scholarship.</label>
+                    <br/>
+                    <textarea name="#" id="#" cols="30" rows="10"></textarea>
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="n">Choose your Nationality</label>
+                    <br/>
+                    <select  id="n">
+                        <option value="*"></option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="uganda">Uganda</option>
+                        <option value="namibia">Namibia</option>
+                        <option value="ethiopia">Ethiopia</option>
+                    </select>
+                </div>
+
+                <br/>
+
+                <div>
+                    <label for="">Which of these languages do you know?.</label>
+                    <br/>
+
+                    <input type="checkbox" id="python" name="lang" />
+                    <label for="python">python</label>
+
+                    <input type="checkbox" id="js" name="lang" />
+                    <label for="js">JavaScript</label>
+
+                    <input type="checkbox" id="Java" name="lang" />
+                    <label for="Java">Java</label>
+                </div>
+
+                <br/>
+                <input type="submit" value="submit" />
+                <input type="reset" value="reset"> 
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

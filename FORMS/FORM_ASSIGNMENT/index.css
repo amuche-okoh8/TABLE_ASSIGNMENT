@@ -1,0 +1,47 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container-div{
+    margin-bottom: 5rem;
+}
+
+.inputs{
+    margin-left: 10rem;
+    
+}
+
+#street{
+    margin-left: 12rem;
+}
+
+#city{
+    margin-left: 12.6rem;
+}
+
+.bio > label{
+    color: blueviolet;
+    
+}
+
+#img{
+    margin-left: 11.8rem;
+}
+
+.hobbies > label{
+    color: blueviolet;
+}
+
+#hobbies-id{
+    margin-left: 11.3rem;
+}
+
+#car{
+    margin-left: 9rem;
+}
+
+#fav-transport-id{
+    margin-left: 4rem;
+}

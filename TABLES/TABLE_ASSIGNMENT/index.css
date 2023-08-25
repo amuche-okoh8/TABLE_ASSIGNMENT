@@ -1,0 +1,16 @@
+
+
+table{
+    margin-left: 4rem;
+}
+
+h1{
+    font-style: italic;
+    margin-left: 9rem;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+

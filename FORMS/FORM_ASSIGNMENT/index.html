@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <title>Form Assignment</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <div class="container-div">
+            <div class="main-div">
+                <div class="fieldset-0ne">
+                  <fieldset>
+                      <legend>Your address</legend>
+                      <br />
+                      <div class="fname">
+                        <label for="fname" class="labels">First Name</label>
+                        <input
+                          type="text"
+                          id="fname"
+                          class="inputs"
+                          name="fname"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="lname">
+                        <label for="lname" class="labels">Last Name</label>
+                        <input
+                          type="text"
+                          id="lname"
+                          class="inputs"
+                          name="lname"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="street">
+                        <label for="street" class="labels">Street</label>
+                        <input
+                          type="text"
+                          id="street"
+                          class="inputs"
+                          name="street"
+                          required
+                        />
+                      </div>
+                      <br />
+                      <div class="city">
+                        <label for="city" class="labels">City</label>
+                        <input
+                          type="text"
+                          id="city"
+                          class="inputs"
+                          name="city"
+                          required
+                        />
+                      </div>
+                      <br />
+                    </fieldset>
+                </div>
+                <br />
+      
+                <fieldset>
+                  <br />
+                  <legend>Additional details</legend>
+                  <div class="bio">
+                    <label for="bio" class="labels">Biography</label>
+                    <textarea
+                      name="bio"
+                      class="inputs"
+                      id="bio"
+                      cols="30"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <br />
+                  <div class="img">
+                    <label for="img" class="labels">Image</label>
+                    <input type="file" class="inputs" id="img" required />
+                  </div>
+                  <br />
+                  <div class="age">
+                    <label for="age" class="labels">Age Group</label>
+                    <input
+                      type="number"
+                      placeholder="0 t0 9 Years"
+                      min="0"
+                      max="9"
+                      class="inputs"
+                      id="age"
+                      required
+                    />
+                  </div>
+                  <br />
+                </fieldset>
+      
+                <br />
+      
+                <fieldset>
+                  <legend>Interest</legend>
+                  <br />
+                  <div class="hobbies">
+                    <label for="" class="labels">Hobbies</label>
+                    <select multiple id="hobbies-id">
+                      <option value="soccer" id="soccer">Playing Soccer</option>
+                      <option value="dancing" id="dancing">Dancing</option>
+                      <option value="gardening" id="gardening">Gardening</option>
+                      <option value="movies" id="movies">Watching Movies</option>
+                    </select>
+                  </div>
+                  <br />
+                  <div class="car">
+                    <label for="car" class="labels">Favourate Car?</label>
+                    <input type="number" id="car" placeholder="Volvo" required />
+                  </div>
+                  <br />
+                  <div class="fav-transport">
+                    <label for="" class="labels">Favourite public transport?</label>
+                    <select width="100px" size="4" id="fav-transport-id" class="inputs" multiple>
+                      <option value="ground">Ground</option>
+                      <option value="train">Train</option>
+                      <option value="bus">Bus</option>
+                      <option value="water">Water</option>
+                    </select>
+                  </div>
+                </fieldset>
+              </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
